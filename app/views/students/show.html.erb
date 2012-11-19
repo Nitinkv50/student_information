@@ -1,0 +1,52 @@
+<center>
+<h3> You are seeing   <%=@student.first_name + @student.last_name %>'s Entry</h3>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @student.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @student.last_name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @student.address %>
+</p>
+
+<p>
+  <b>Mobile:</b>
+  <%= @student.mobile %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @student.email %>
+</p>
+
+<p>
+  <b>Am paid:</b>
+  <%= @student.am_paid %>
+</p>
+
+<p>
+  <b>Out of:</b>
+  <%= @student.out_of %>
+</p>
+
+<p>
+  <b>Check:</b>
+  <%= @student.check %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @student.created_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %></center>

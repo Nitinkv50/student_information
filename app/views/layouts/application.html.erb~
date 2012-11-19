@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StInfo</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body bgcolor="Cyan">
+
+<body style="background-color:cyan;">
+
+<%= yield %>
+
+</body>
+</html>
